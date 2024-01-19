@@ -1,0 +1,55 @@
+.navigation-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation-menu li {
+  margin: 0px 20px;
+}
+
+.navigation-menu li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s; /* Adding a smooth transition effect */
+}
+
+.navigation-menu li a:hover {
+  color: goldenrod;
+}
+
+.active {
+  color: goldenrod !important;
+  font-weight: bold !important;
+}
+
+/* Mobile view */
+.mobile-navigation {
+  list-style: none;
+}
+
+.mobile-navigation li {
+  margin-top: 20px;
+}
+
+.mobile-navigation li a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: black;
+  transition: color 0.3s; /* Adding a smooth transition effect */
+}
+
+.mobile-navigation li a:hover {
+  color: goldenrod;
+}
+
+.person-icon {
+  color: white;
+  margin-left: 2px;
+}
+
+.person-icon:hover {
+  color: goldenrod;
+  cursor: pointer;
+}
